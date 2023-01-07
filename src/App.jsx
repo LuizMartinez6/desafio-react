@@ -6,8 +6,9 @@ import diabloMobileBanner from "./assets/mobile-diablo.jpg";
 function App() {
   return (
     <div className="App">
-      <Banner bannerImage={diabloMobileBanner}></Banner>
       <GlobalStyles />
+      <Banner bannerImage={diabloMobileBanner}></Banner>
+      <h1>Body</h1>
     </div>
   );
 }

@@ -3,7 +3,7 @@ import React from "react";
 import { Container } from "./styles";
 
 const Banner = ({ bannerImage }) => {
-  return <Container bannerImage={bannerImage}></Container>;
+  return <Container src={bannerImage} />;
 };
 
 export default Banner;
