@@ -14,7 +14,6 @@ body, button,input {
 body{
   display: flex;
   justify-content: center;
-  background-color: blue;
   align-items: center;
   height: 100vh;
   font-family: 'Montserrat', sans-serif;
